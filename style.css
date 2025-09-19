@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: #333;
+}
+
+#main {
+  width: 100%;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#header .icon img {
+  height: 60px;
+  width: auto;
+  border-radius: 8px;
+}
+
+#header .book h1 {
+  margin-left: 15px;
+  color: #2575fc;
+  font-size: 28px;
+}
+
+#nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#nav div {
+  cursor: pointer;
+  font-weight: bold;
+  color: #444;
+  transition: 0.3s;
+}
+
+#nav div:hover {
+  color: #2575fc;
+  text-decoration: underline;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 40px;
+  padding: 20px;
+}
+
+#course {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+#course div {
+  padding: 10px;
+  margin: 8px 0;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #f4f4f4;
+  transition: 0.3s;
+}
+
+#course div:hover {
+  background: #2575fc;
+  color: #fff;
+}
+
+#div2 {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+#div2 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2575fc;
+}
+
+#div2 input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+#div2 input:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+
+#div2 button {
+  width: 100%;
+  padding: 12px;
+  background: #2575fc;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+#div2 button:hover {
+  background: #1a5fd6;
+}
+
+.extra {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.extra a {
+  color: #2575fc;
+  text-decoration: none;
+}
+
+.extra a:hover {
+  text-decoration: underline;
+}
+#nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #444;
+  transition: 0.3s;
+}
+
+#nav a:hover {
+  color: #2575fc;
+  text-decoration: underline;
+}
